@@ -36,6 +36,7 @@ export function initInterface(){
  document.querySelectorAll('[data-jump-filter]').forEach(a=>a.onclick=()=>{$('townSearch').value='';$('levelFilter').value=a.dataset.jumpFilter;filterTowns();});
  document.querySelectorAll('a[href="#audit"]').forEach(a=>a.addEventListener('click',()=>{$('audit').open=true;}));
  document.querySelectorAll('.primary-nav a').forEach(a=>a.addEventListener('click',()=>{document.querySelectorAll('.primary-nav a').forEach(x=>x.removeAttribute('aria-current'));a.setAttribute('aria-current','location');}));
+ document.querySelectorAll('a[href="#decision-section"]' ).forEach(a=>a.addEventListener('click',()=>{$('decision-section').open=true;}));
  const observer=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>a.boundingClientRect.top-b.boundingClientRect.top);if(!visible.length)return;document.querySelectorAll('.primary-nav a').forEach(a=>{if(a.hash==='#'+visible[0].target.id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current');});},{rootMargin:'-130px 0px -55% 0px',threshold:0});
  ['overview','readiness','crew-section','briefing','history-section'].forEach(id=>observer.observe($(id)));
 }
