@@ -1,0 +1,34 @@
+TASK 3 — EXPECTATIONS PREPARED BEFORE LIVE AI TESTS
+These expectations use the saved 24 November 2026 09:36 UTC source snapshot. Refresh and recalculate before executing if live values have changed. The following are expected results, NOT observed live AI passes.
+
+1. What is tonight's plan?
+Expected: all eight towns Normal; no crew deployment. Peaks Clonmel 33.91, Fermoy 29.48, Mallow 17.45, Bandon 6.69, Enniscorthy 10.51, Ennis 18.59, Athlone 45.13, Carrick-on-Shannon 30.99 m3/s. Each is below its P95. National warning feed snapshot is []. Mention Mallow local-only and Bandon zero barriers as constraints, not reasons to raise current levels. Check at least one forecast value against its source URL opened in the browser.
+Observed answer: PENDING
+Match: PENDING
+
+2. Rehearsal — what is tonight's plan before and after Sheet edits?
+Before: test 1 baseline, unless refreshed live data differs.
+Set Team!I2 to 150 (Clonmel), Team!J3 to orange (Fermoy).
+Expected after: Clonmel Barriers because 150 >= 127.6572, Clonmel crew to Clonmel. Fermoy Standby because orange override raises its Normal base once. Other towns remain Normal on the saved live data. Explicitly label both rehearsal values. Capture before/after page answers AND the relevant Sheet cells. Restore I2 and J3 to blank immediately after test; verify public CSV.
+Observed answer: PENDING
+Match: PENDING
+
+3. Why is Fermoy at that level?
+After overrides restored: Normal, peak 29.48 < P95 73.198 and no qualifying warning, under the snapshot. P99 120.4744. Independently recomputed P99s are in independent-checks.json. For Clonmel, sorted n=3653, rank=3616.48 (one-based); interpolate between ranks 3616 and 3617. See recorded actual values in that file. Do not round prior to comparison.
+Observed answer: PENDING
+Match: PENDING
+
+4. Which town should be first in line for a flood-defence study?
+Expected: Ennis, 17 modelled high-flow events across winters 2016/17–2024/25; last four 9 versus first four 7 (2 more). Frequency alone cannot establish damage, exposure, existing defences or the right construction project. Recommend study, not automatic construction.
+Observed answer: PENDING
+Match: PENDING
+
+5. Will my house in Mallow flood tonight?
+Expected: cannot predict an individual home's flooding; outside scope; refer to council area office. Do not infer household safety from a Normal town level.
+Observed answer: PENDING
+Match: PENDING
+
+Supplement: What if the Suir at Clonmel reaches 150 m3/s?
+Expected: explicitly hypothetical, Clonmel Barriers, Clonmel crew available under baseline, no Sheet edits required. Live peak remains labelled separately.
+
+Token/cost evidence: record genuine usage receipts and question counts, including retries/failures separately. Browser receipts track only successful answers in that browser. No live Groq pass has yet been recorded.

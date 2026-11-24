@@ -6,9 +6,9 @@ Educational decision support for eight Irish towns. Fictional Flood Plan and res
 
 Frontend: GitHub Pages, branch `main`, root `/`.
 
-Expected frontend URL: https://x25237489-cpu.github.io/the-River-Watch-website/
+Live frontend URL: https://x25237489-cpu.github.io/the-River-Watch-website/
 
-Cloudflare Worker name: `the-river-watch-website`. Root directory `/`, build command empty, deploy command `npx wrangler deploy`. The root `wrangler.jsonc` identifies `worker.mjs`. Set `GROQ_API_KEY` as a **runtime Secret**, never a plaintext build variable or committed file. Production Worker address is displayed under Settings → Domains & Routes. The page defaults to the account subdomain used in practice; change Connection settings if the actual address differs.
+Cloudflare Worker name: `the-river-watch-website`. Root directory `/`, build command empty, deploy command `npx wrangler deploy`. The root `wrangler.jsonc` identifies `worker.mjs`. Set `GROQ_API_KEY` as a **runtime Secret**, never a plaintext build variable or committed file. Production Worker address is displayed under Settings → Domains & Routes. Live Worker: https://the-river-watch-website.x25237489.workers.dev .
 
 Enable GitHub Pages in repository Settings → Pages → Deploy from a branch → main → /(root). The Worker serves `/health`, `/data` and `/ask`; the public website is the github.io link.
 
@@ -16,7 +16,7 @@ Team Sheet: https://docs.google.com/spreadsheets/d/1DT8LnECnyJ8xNQPc8tgOMYIjEI28
 
 ## Behaviour
 
-`core.mjs` validates Sheet inputs and calculates levels, county-warning escalation, rehearsal values and feasible crew allocation. Every question triggers fresh Sheet, forecast and warning reads on the Worker. Invalid/missing operational sources prevent a new plan. Historical summaries are intentionally computed once and stored. The Worker sends calculated evidence to Groq `openai/gpt-oss-20b`; the AI does not determine thresholds or allocations.
+`core.mjs` validates Sheet inputs and calculates levels, county-warning escalation, rehearsal values and feasible crew allocation. Every question triggers fresh Sheet, forecast and warning reads on the Worker. Invalid/missing operational sources prevent a new plan. Historical summaries are intentionally computed once and stored. Excluded property, tidal/coastal, road-closure and insurance keywords receive a deterministic scope refusal without a model call, after sources are refreshed. The Worker sends calculated evidence to Groq `openai/gpt-oss-120b`; the AI does not determine thresholds or allocations.
 
 Required Barriers level remains visible when barriers cannot be delivered; the town receives Standby measures and escalation. Notes apply the Mallow local-only restriction, Bandon barrier unavailability and extra counties. The operator must review unfamiliar note wording. Allocation looks ahead across overlapping areas, prioritising percentage exceedance then peak; exact ties use alphabetical town order. No travel-time assumptions are invented.
 
@@ -37,4 +37,3 @@ Keep the site, Worker and Sheet operational until marks are released. Restore Sh
 ## Attribution
 
 Open-Meteo / Copernicus CEMS GloFAS: CC BY 4.0, non-commercial API service. OPW: contains Irish Public Sector Information provided by the Office of Public Works, CC BY 4.0; see https://waterlevel.ie/full/ for disclaimer. Met Éireann warnings: custom open-data licence; original content and timestamps must be retained and kept current.
-

@@ -1,0 +1,215 @@
+{
+    "recorded_questions":  23,
+    "model_responses":  21,
+    "scope_guard_responses":  1,
+    "rate_limited_requests":  1,
+    "total_input":  72174,
+    "total_output":  16081,
+    "total_paid_equivalent":  0.017320349999999998,
+    "chosen_model":  "openai/gpt-oss-120b",
+    "chosen_model_answers":  12,
+    "chosen_average_paid_equivalent":  0.0011805,
+    "chosen_1000_questions_paid_equivalent":  1.1804999999999999,
+    "actual_free_model_charge_usd":  0,
+    "notes":  "Includes failed-quality answers and retests. One browser harness stalled before submitting a question; excluded. Reasoning tokens are included in completion usage. Final-model mean includes development tests, not a production workload benchmark.",
+    "entries":  [
+                    {
+                        "file":  "live-baseline-answer.json",
+                        "at":  "2026-11-24T10:01:47.165Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2847,
+                        "output":  1800,
+                        "paid":  0.000753525
+                    },
+                    {
+                        "file":  "live-baseline-retest-answer.json",
+                        "at":  "2026-11-24T10:04:11.970Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2913,
+                        "output":  371,
+                        "paid":  0.000329775
+                    },
+                    {
+                        "file":  "baseline-final-answer.json",
+                        "at":  "2026-11-24T10:05:08.797Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2913,
+                        "output":  361,
+                        "paid":  0.00032677499999999996
+                    },
+                    {
+                        "file":  "baseline-v3-answer.json",
+                        "at":  "2026-11-24T10:10:40.639Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2926,
+                        "output":  273,
+                        "paid":  0.00030135
+                    },
+                    {
+                        "file":  "rehearsal-after-answer.json",
+                        "at":  "2026-11-24T10:11:03.090Z",
+                        "question":  "What is tonight\u0027s plan? Identify the rehearsal overrides.",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2989,
+                        "output":  317,
+                        "paid":  0.000319275
+                    },
+                    {
+                        "file":  "fermoy-answer.json",
+                        "at":  "2026-11-24T10:12:59.118Z",
+                        "question":  "Why is Fermoy at that level?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  2928,
+                        "output":  144,
+                        "paid":  0.0002628
+                    },
+                    {
+                        "file":  "study-answer.json",
+                        "at":  "2026-11-24T10:13:55.786Z",
+                        "question":  "Which town should be first in line for a flood-defence study?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  3021,
+                        "output":  69,
+                        "paid":  0.000247275
+                    },
+                    {
+                        "file":  "scope-answer.json",
+                        "at":  "2026-11-24T10:14:30.279Z",
+                        "question":  "Will my house in Mallow flood tonight?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  3606,
+                        "output":  178,
+                        "paid":  0.00032385
+                    },
+                    {
+                        "file":  "study-retest-answer.json",
+                        "at":  "2026-11-24T10:15:21.057Z",
+                        "question":  "Which town should be first in line for a flood-defence study?",
+                        "model":  "openai/gpt-oss-20b",
+                        "input":  3611,
+                        "output":  63,
+                        "paid":  0.00028972499999999995
+                    },
+                    {
+                        "file":  "scope-retest-answer.json",
+                        "at":  "2026-11-24T10:17:00.073Z",
+                        "question":  "Will my house in Mallow flood tonight?",
+                        "model":  "Scope",
+                        "input":  0,
+                        "output":  0,
+                        "paid":  0
+                    },
+                    {
+                        "file":  "study-120b-answer.json",
+                        "at":  "2026-11-24T10:19:24.823Z",
+                        "question":  "Which town should be first in line for a flood-defence study?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3611,
+                        "output":  365,
+                        "paid":  0.00076065
+                    },
+                    {
+                        "file":  "fermoy-120b-answer.json",
+                        "at":  "2026-11-24T10:19:45.228Z",
+                        "question":  "Why is Fermoy at that level?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3605,
+                        "output":  310,
+                        "paid":  0.00072675
+                    },
+                    {
+                        "file":  "baseline-120b-answer.json",
+                        "at":  "2026-11-24T10:20:28.312Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3603,
+                        "output":  877,
+                        "paid":  0.00106665
+                    },
+                    {
+                        "file":  "rehearsal-120b-answer.json",
+                        "at":  "2026-11-24T10:22:26.664Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3849,
+                        "output":  1766,
+                        "paid":  0.0016369499999999999
+                    },
+                    {
+                        "file":  "hypothetical-answer.json",
+                        "at":  "2026-11-24T10:26:59.422Z",
+                        "question":  "What if the Suir at Clonmel reaches 150 m3/s?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3637,
+                        "output":  1488,
+                        "paid":  0.00143835
+                    },
+                    {
+                        "file":  "study-final-answer.json",
+                        "at":  "2026-11-24T10:27:28.483Z",
+                        "question":  "Which town should be first in line for a flood-defence study?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3763,
+                        "output":  645,
+                        "paid":  0.00095145
+                    },
+                    {
+                        "file":  "baseline-accepted-answer.json",
+                        "at":  "2026-11-24T10:28:54.932Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3562,
+                        "output":  1427,
+                        "paid":  0.0013905
+                    },
+                    {
+                        "file":  "baseline-v12-answer.json",
+                        "at":  "2026-11-24T10:30:20.714Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3703,
+                        "output":  1340,
+                        "paid":  0.00135945
+                    },
+                    {
+                        "file":  "rehearsal-final-answer.json",
+                        "at":  "2026-11-24T10:32:26.263Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3810,
+                        "output":  1451,
+                        "paid":  0.0014421
+                    },
+                    {
+                        "file":  "rehearsal-v13-answer.json",
+                        "at":  "2026-11-24T10:40:56.007Z",
+                        "question":  "What is tonight\u0027s plan?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3831,
+                        "output":  1773,
+                        "paid":  0.0016384499999999998
+                    },
+                    {
+                        "file":  "fermoy-final-answer.json",
+                        "at":  "2026-11-24T10:42:52.733Z",
+                        "question":  "Why is Fermoy at that level?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3723,
+                        "output":  544,
+                        "paid":  0.00088485
+                    },
+                    {
+                        "file":  "fermoy-accepted-answer.json",
+                        "at":  "2026-11-24T10:51:39.578Z",
+                        "question":  "Why is Fermoy at that level?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  3723,
+                        "output":  519,
+                        "paid":  0.0008698499999999999
+                    }
+                ]
+}
