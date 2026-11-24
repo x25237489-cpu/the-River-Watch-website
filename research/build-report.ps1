@@ -47,7 +47,7 @@ $html=@"
 <h1>River Watch — CA2</h1><p><b>Peter Jesutofunmi Aluko</b><br>Student number: <b>25237489</b><br>Provider: Groq Free · Model: openai/gpt-oss-120b</p>
 <p>Website: <a href="https://x25237489-cpu.github.io/the-River-Watch-website/">https://x25237489-cpu.github.io/the-River-Watch-website/</a><br>Team Sheet: <a href="https://docs.google.com/spreadsheets/d/1DT8LnECnyJ8xNQPc8tgOMYIjEI28JNAOAl3bS4Kw514/edit">Open Team Sheet</a></p>
 <p class="notice"><b>Working submission draft:</b> Task 5 must be added by the student without AI. The account owner confirmed GROQ_API_KEY is a Cloudflare runtime Secret. Review all content before submission.</p>
-<p class="small">Prepared 24 November 2026. Tasks 1, 3 and 4 prose: approximately $wordcount words, excluding tables, screenshots, transcripts and references. Task 4: $(($task4 -split '\s+' | Where-Object {$_}).Count) words.</p>
+<p class="small">Prepared 24 November 2026. Tasks 1, 3 and 4 prose: approximately $wordcount words, excluding tables, screenshots and references. Task 4: $(($task4 -split '\s+' | Where-Object {$_}).Count) words.</p>
 <h2>Task 1 — Data, checks and architecture</h2>$(Paras $task1)
 <h3>Table 1. Stored history summary and model selector coordinates</h3><p class="small">2016–2025; flow in m³/s. Gauge coordinates are retained separately in data/points.json. Each selector is verified against the returned historical and forecast grid point.</p>
 <table><tr><th>Town</th><th>River</th><th>Selector lat, lon</th><th>P95</th><th>P99</th><th>Events</th><th>First 4</th><th>Last 4</th></tr>$rows</table>
@@ -62,7 +62,7 @@ $html=@"
 <p>[4] Open-Meteo. <a href="https://open-meteo.com/en/docs/flood-api">Global Flood API</a>; <a href="https://open-meteo.com/en/terms">Terms</a>. Copernicus CEMS GloFAS. Accessed 24 November 2026.</p>
 <p>[5] OPW. <a href="https://waterlevel.ie/geojson/">Station GeoJSON</a>; <a href="https://waterlevel.ie/full/">Station identities and attribution</a>. Contains Irish Public Sector Information provided by the OPW.</p>
 <p>[6] Met Éireann. <a href="https://www.met.ie/Open_Data/json/warning_IRELAND.json">Warning feed</a>; <a href="https://www.met.ie/Open_Data/Warnings/Met_Eireann_Warning_description_June2020.pdf">Schema and FIPS regions</a>; <a href="https://data.gov.ie/dataset/weather-warnings">Licence</a>.</p>
-<h2>Evidence appendix — observed answer transcripts</h2><p>Verbatim responses, including their formatting and wording. The calculation cards and linked sources remain the primary numerical evidence.</p>$appendix
+<h2>Evidence appendix — screenshots</h2><p>Full observed responses and token receipts are supplied in the evidence ZIP. The screenshots below preserve the before/after tests and direct source check.</p>
 $imagehtml
 </body></html>
 "@

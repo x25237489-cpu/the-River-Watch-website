@@ -70,7 +70,7 @@
                                             "monthly_paid_equivalent_usd":  0.87
                                         },
                   "actual_usage":  "See research/usage-summary.json and browser receipts; 20B was tested first and replaced after explanation failures.",
-                  "key":  "Live server binding verified by successful Groq calls. Cloudflare Secret encryption type still requires account-owner confirmation."
+                  "key":  "Live server binding verified by successful Groq calls. The account owner confirmed the binding is a Cloudflare runtime Secret."
               },
     "river_checks":  [
                          {

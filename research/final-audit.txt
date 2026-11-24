@@ -1,0 +1,24 @@
+RIVER WATCH — FINAL QUALITY REVIEW, 24 NOVEMBER 2026
+Peter Jesutofunmi Aluko | 25237489
+
+Conclusion: Tasks 1–4 have evidence addressing the Excellent descriptors. This is a reasoned readiness assessment, not a mark guarantee. The written submission is still a DRAFT because Task 5 remains the student's own contribution.
+
+Task 1 (20): sources/licences, eight river-location checks, historical method and summary, county/time warning matching, model choice, dated rates, Free-tier charge backstop and server-side key handling are documented. The student confirmed the Cloudflare binding is a Secret; this account setting was not independently inspected. River checks establish plausibility, not local calibration.
+
+Task 2 (35): the published HTTPS page loads all eight towns, three crew cards and eight history rows in a fresh browser profile. Live source retrieval is visible. Search, empty-filter state, reset, question prefill, settings, navigation anchors, image load and accessible button names pass. Decision record is collapsed initially and opens from the process link. No duplicate IDs or page overflow at desktop 1440 and phone 320 pixels. This checks a fresh browser on this machine; it is not evidence of testing a physically separate computer.
+
+The deterministic engine was not altered by the theme/layout work. Its existing automated suite was executed in JavaScript with 22 passing assertions: baseline, P95/P99 boundaries, zero override, Roscommon matching for both towns, no double warning uplift, yellow/wind/expired/future exclusions, Mallow restriction, Bandon barrier unavailability, crew capacity, Clonmel hypothetical, invalid data rejection and historical study leader. Independent PowerShell recalculation reproduced all eight P99 values and winter counts. Tests cover these cases, not all possible source changes or model responses.
+
+Task 3 (15): five assessed questions have expectations, observed answers and outcomes. Before/after Sheet and answer evidence, direct forecast-source check, independent percentile calculation, failed attempts, fixes/retests and sourced token costs are retained. Original screenshots show the interface at the time of those tests; newer theme screenshots are supplementary, not replacements for historical evidence. No additional AI answer was fabricated for the redesign.
+
+Task 4 (15): organisation-specific implications, human responsibility, model/source limitations, measured costs, operational risks with safeguards and primary references are present. Task 4 is 387 words. Tasks 1, 3 and 4 prose total 1,181 words, within 1,400. Tables, screenshot captions, transcripts and references are additional material.
+
+Task 5 (15): intentionally not assessed, rewritten or polished by AI. The brief requires the student's own 150–250 words. The placeholder must be replaced by the student before submission.
+
+UI changes: the briefing now follows the overview so questions are easier to reach; navigation follows page order; banner and palette retained; spacing tightened; human-review form collapsed. All town data, critical notes, actions, crew assignments, thresholds, historical counts, attribution and scope limitations remain available. A failed refresh disables decision download until a new plan is loaded. That guard was code-reviewed; the extended asynchronous download/outage browser test stalled and is not claimed as a pass.
+
+Deliverables: Word/PDF drafts contain name, student number, website and Sheet links, Groq provider and task headings. Code ZIP includes index, stylesheet, browser modules, Worker, engine, configuration, source register, history and tests. Package verification checks byte-for-byte agreement with local files, parses DOCX XML/relationships, checks PDF structure and scans shipped application files for common key patterns. These checks do not substitute for a final visual read of the document after the student inserts Task 5.
+
+Evidence: research/independent-checks.json; tests/core.test.mjs; .qa/final-complete-check.json; .qa/final-complete-ui-checks.json; .qa/final-phone-check.json; .qa/final-phone-ui-checks.json; existing assessed test receipts/screenshots; research/usage-summary.json.
+
+Before submission: add your own Task 5; read the final Word/PDF including tables and screenshots; submit the report and code package through the required channel; leave the page, Worker and Sheet live until marks are released. Lecturer Editor access and Secret configuration are recorded as student-confirmed.
