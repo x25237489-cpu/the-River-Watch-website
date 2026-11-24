@@ -1,15 +1,15 @@
 {
-    "recorded_questions":  23,
-    "model_responses":  21,
+    "recorded_questions":  24,
+    "model_responses":  22,
     "scope_guard_responses":  1,
     "rate_limited_requests":  1,
-    "total_input":  72174,
-    "total_output":  16081,
-    "total_paid_equivalent":  0.017320349999999998,
+    "total_input":  73844,
+    "total_output":  16348,
+    "total_paid_equivalent":  0.017731049999999998,
     "chosen_model":  "openai/gpt-oss-120b",
-    "chosen_model_answers":  12,
-    "chosen_average_paid_equivalent":  0.0011805,
-    "chosen_1000_questions_paid_equivalent":  1.1804999999999999,
+    "chosen_model_answers":  13,
+    "chosen_average_paid_equivalent":  0.0011212846153846152,
+    "chosen_1000_questions_paid_equivalent":  1.1212846153846152,
     "actual_free_model_charge_usd":  0,
     "notes":  "Includes failed-quality answers and retests. One browser harness stalled before submitting a question; excluded. Reasoning tokens are included in completion usage. Final-model mean includes development tests, not a production workload benchmark.",
     "entries":  [
@@ -210,6 +210,15 @@
                         "input":  3723,
                         "output":  519,
                         "paid":  0.0008698499999999999
+                    },
+                    {
+                        "file":  "fermoy-v14-answer.json",
+                        "at":  "2026-11-24T11:03:06.612Z",
+                        "question":  "Why is Fermoy at that level?",
+                        "model":  "openai/gpt-oss-120b",
+                        "input":  1670,
+                        "output":  267,
+                        "paid":  0.0004107
                     }
                 ]
 }
