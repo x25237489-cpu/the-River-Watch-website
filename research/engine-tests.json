@@ -1,0 +1,73 @@
+{
+  "executed_at": "2026-11-24",
+  "environment": "JavaScript V8 tool runtime; source core.mjs loaded directly",
+  "results": [
+    {
+      "name": "Live baseline: all eight Normal",
+      "pass": true
+    },
+    {
+      "name": "P95 equality means Standby",
+      "pass": true
+    },
+    {
+      "name": "P99 equality means Barriers",
+      "pass": true
+    },
+    {
+      "name": "Zero override is effective, labelled rehearsal",
+      "pass": true
+    },
+    {
+      "name": "Orange override escalates another town",
+      "pass": true
+    },
+    {
+      "name": "Roscommon warning applies to both spanning towns",
+      "pass": true
+    },
+    {
+      "name": "Yellow does not escalate",
+      "pass": true
+    },
+    {
+      "name": "Orange wind does not escalate",
+      "pass": true
+    },
+    {
+      "name": "Expired warning does not escalate",
+      "pass": true
+    },
+    {
+      "name": "Future beyond 48h ignored",
+      "pass": true
+    },
+    {
+      "name": "Multiple orange/red warnings escalate only once",
+      "pass": true
+    },
+    {
+      "name": "All towns above P99: constraints and priority",
+      "pass": true
+    },
+    {
+      "name": "Clonmel 150 hypothetical computed",
+      "pass": true,
+      "retest": "Read source as UTF-8; initial shell read corrupted superscript 3 in the regex. Hypothetical now computes 150 and Barriers."
+    },
+    {
+      "name": "Missing forecast rejected",
+      "pass": true,
+      "retest": "Used JSON fixture clone in this V8 runtime; missing forecast is correctly rejected."
+    },
+    {
+      "name": "Unknown warning schema rejected",
+      "pass": true
+    },
+    {
+      "name": "History leader and first/last four correct",
+      "pass": true
+    }
+  ]
+}
+

@@ -1,0 +1,11 @@
+{
+    "retrieved_at_utc":  "2026-11-24T09:36:18.8045478Z",
+    "history_url":  "https://flood-api.open-meteo.com/v1/flood?latitude=52.375,52.175,52.125,51.775,52.525,52.825,53.425,53.925\u0026longitude=-7.675,-8.275,-8.625,-8.725,-6.575,-9.025,-7.975,-8.075\u0026daily=river_discharge\u0026models=seamless_v4\u0026cell_selection=nearest\u0026timezone=GMT\u0026start_date=2016-01-01\u0026end_date=2025-12-31",
+    "forecast_url":  "https://flood-api.open-meteo.com/v1/flood?latitude=52.375,52.175,52.125,51.775,52.525,52.825,53.425,53.925\u0026longitude=-7.675,-8.275,-8.625,-8.725,-6.575,-9.025,-7.975,-8.075\u0026daily=river_discharge\u0026models=seamless_v4\u0026cell_selection=nearest\u0026timezone=GMT\u0026forecast_days=3",
+    "warnings_url":  "https://www.met.ie/Open_Data/json/warning_IRELAND.json",
+    "model":  "seamless_v4",
+    "history_start":  "2016-01-01",
+    "history_end":  "2025-12-31",
+    "expected_days":  3653
+}
+

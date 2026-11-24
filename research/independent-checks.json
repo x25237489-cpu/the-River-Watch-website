@@ -1,0 +1,179 @@
+[
+    {
+        "town":  "Clonmel",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  127.23,
+        "upper_value":  128.12,
+        "independent_p99":  127.65720000000002,
+        "event_counts":  [
+                             0,
+                             0,
+                             0,
+                             2,
+                             3,
+                             2,
+                             1,
+                             2,
+                             1
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Fermoy",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  120.34,
+        "upper_value":  120.62,
+        "independent_p99":  120.4744,
+        "event_counts":  [
+                             0,
+                             0,
+                             0,
+                             1,
+                             3,
+                             0,
+                             1,
+                             2,
+                             3
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Mallow",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  70.61,
+        "upper_value":  72.11,
+        "independent_p99":  71.330000000000027,
+        "event_counts":  [
+                             1,
+                             0,
+                             0,
+                             1,
+                             3,
+                             1,
+                             1,
+                             3,
+                             3
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Bandon",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  37.99,
+        "upper_value":  39.46,
+        "independent_p99":  38.695600000000027,
+        "event_counts":  [
+                             0,
+                             0,
+                             0,
+                             1,
+                             2,
+                             0,
+                             0,
+                             3,
+                             5
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Enniscorthy",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  52.33,
+        "upper_value":  52.46,
+        "independent_p99":  52.3924,
+        "event_counts":  [
+                             0,
+                             1,
+                             0,
+                             1,
+                             1,
+                             0,
+                             0,
+                             2,
+                             2
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Ennis",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  45.24,
+        "upper_value":  45.56,
+        "independent_p99":  45.393600000000006,
+        "event_counts":  [
+                             1,
+                             0,
+                             1,
+                             5,
+                             1,
+                             0,
+                             3,
+                             5,
+                             1
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Athlone",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  186.50,
+        "upper_value":  186.93,
+        "independent_p99":  186.7064,
+        "event_counts":  [
+                             0,
+                             0,
+                             0,
+                             1,
+                             0,
+                             0,
+                             0,
+                             0,
+                             0
+                         ],
+        "pass":  true
+    },
+    {
+        "town":  "Carrick-on-Shannon",
+        "n":  3653,
+        "one_based_rank":  3616.48,
+        "lower_rank":  3616,
+        "upper_rank":  3617,
+        "lower_value":  88.74,
+        "upper_value":  88.95,
+        "independent_p99":  88.8408,
+        "event_counts":  [
+                             0,
+                             1,
+                             1,
+                             2,
+                             5,
+                             1,
+                             1,
+                             0,
+                             1
+                         ],
+        "pass":  true
+    }
+]
+

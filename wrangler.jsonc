@@ -1,0 +1,8 @@
+{
+  "name": "the-river-watch-website",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-24",
+  "workers_dev": true,
+  "vars": {"ALLOWED_ORIGIN": "https://x25237489-cpu.github.io"}
+}
+

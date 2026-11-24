@@ -1,0 +1,91 @@
+[
+    {
+        "town":  "Clonmel",
+        "river":  "Suir",
+        "station_id":  "0000016011",
+        "station_name":  "Clonmel",
+        "town_latitude":  52.351525,
+        "town_longitude":  -7.694598,
+        "latitude":  52.375,
+        "longitude":  -7.675,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Fermoy",
+        "river":  "Blackwater",
+        "station_id":  "0000018106",
+        "station_name":  "Fermoy Bridge U/S",
+        "town_latitude":  52.138568,
+        "town_longitude":  -8.276634,
+        "latitude":  52.175,
+        "longitude":  -8.275,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Mallow",
+        "river":  "Blackwater",
+        "station_id":  "0000018056",
+        "station_name":  "Mallow Town Bridge U/S",
+        "town_latitude":  52.13234,
+        "town_longitude":  -8.641608,
+        "latitude":  52.125,
+        "longitude":  -8.625,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Bandon",
+        "river":  "Bandon",
+        "station_id":  "0000020001",
+        "station_name":  "Bandon",
+        "town_latitude":  51.746954,
+        "town_longitude":  -8.731538,
+        "latitude":  51.775,
+        "longitude":  -8.725,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Enniscorthy",
+        "river":  "Slaney",
+        "station_id":  "0000012002",
+        "station_name":  "Enniscorthy",
+        "town_latitude":  52.502307,
+        "town_longitude":  -6.566852,
+        "latitude":  52.525,
+        "longitude":  -6.575,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Ennis",
+        "river":  "Fergus",
+        "station_id":  "0000027066",
+        "station_name":  "Ennis Bridge",
+        "town_latitude":  52.846674,
+        "town_longitude":  -8.981789,
+        "latitude":  52.825,
+        "longitude":  -9.025,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Athlone",
+        "river":  "Shannon",
+        "station_id":  "0000026027",
+        "station_name":  "Athlone",
+        "town_latitude":  53.421534,
+        "town_longitude":  -7.940756,
+        "latitude":  53.425,
+        "longitude":  -7.975,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    },
+    {
+        "town":  "Carrick-on-Shannon",
+        "river":  "Shannon",
+        "station_id":  "0000026324",
+        "station_name":  "Carrick-On-Shannon",
+        "town_latitude":  53.943210314852095,
+        "town_longitude":  -8.095558601188694,
+        "latitude":  53.925,
+        "longitude":  -8.075,
+        "selection":  "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration."
+    }
+]
+

@@ -1,0 +1,649 @@
+{
+  "method": "Linear interpolation, zero-based rank (n-1)*p; equivalent to PERCENTILE.INC/type 7. Compare unrounded values.",
+  "model": "GloFAS v4 seamless via Open-Meteo; modelled discharge, not observed gauge flow.",
+  "period": "2016-01-01/2025-12-31",
+  "event_rule": "Consecutive daily values >= full-period P99 within each Oct-Mar winter, resetting at each winter boundary.",
+  "towns": [
+    {
+      "town": "Clonmel",
+      "river": "Suir",
+      "station_id": "0000016011",
+      "station_name": "Clonmel",
+      "town_latitude": 52.351525,
+      "town_longitude": -7.694598,
+      "latitude": 52.375,
+      "longitude": -7.675,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 52.375,
+      "returned_longitude": -7.674988,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 33.14201751984682,
+      "median_m3s": 25.3,
+      "p95_m3s": 77.7,
+      "p99_m3s": 127.65720000000002,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 2,
+          "high_days": 4,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 3,
+          "high_days": 6,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 2,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 1,
+          "high_days": 3,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 2,
+          "high_days": 3,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        }
+      ],
+      "total_events": 11,
+      "first_four_events": 2,
+      "last_four_events": 6
+    },
+    {
+      "town": "Fermoy",
+      "river": "Blackwater",
+      "station_id": "0000018106",
+      "station_name": "Fermoy Bridge U/S",
+      "town_latitude": 52.138568,
+      "town_longitude": -8.276634,
+      "latitude": 52.175,
+      "longitude": -8.275,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 52.175003,
+      "returned_longitude": -8.274994,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 30.81754995893782,
+      "median_m3s": 23.27,
+      "p95_m3s": 73.19799999999994,
+      "p99_m3s": 120.4744,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 1,
+          "high_days": 2,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 3,
+          "high_days": 8,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 2,
+          "high_days": 5,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 3,
+          "high_days": 6,
+          "days": 182
+        }
+      ],
+      "total_events": 10,
+      "first_four_events": 1,
+      "last_four_events": 6
+    },
+    {
+      "town": "Mallow",
+      "river": "Blackwater",
+      "station_id": "0000018056",
+      "station_name": "Mallow Town Bridge U/S",
+      "town_latitude": 52.13234,
+      "town_longitude": -8.641608,
+      "latitude": 52.125,
+      "longitude": -8.625,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 52.125,
+      "returned_longitude": -8.624985,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 18.48395565288803,
+      "median_m3s": 13.96,
+      "p95_m3s": 44.6,
+      "p99_m3s": 71.33000000000003,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 1,
+          "high_days": 1,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 1,
+          "high_days": 2,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 3,
+          "high_days": 6,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 1,
+          "high_days": 1,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 3,
+          "high_days": 5,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 3,
+          "high_days": 6,
+          "days": 182
+        }
+      ],
+      "total_events": 13,
+      "first_four_events": 2,
+      "last_four_events": 8
+    },
+    {
+      "town": "Bandon",
+      "river": "Bandon",
+      "station_id": "0000020001",
+      "station_name": "Bandon",
+      "town_latitude": 51.746954,
+      "town_longitude": -8.731538,
+      "latitude": 51.775,
+      "longitude": -8.725,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 51.775,
+      "returned_longitude": -8.724991,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 8.159277306323547,
+      "median_m3s": 5.5,
+      "p95_m3s": 22.01,
+      "p99_m3s": 38.69560000000003,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 1,
+          "high_days": 1,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 2,
+          "high_days": 5,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 3,
+          "high_days": 6,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 5,
+          "high_days": 8,
+          "days": 182
+        }
+      ],
+      "total_events": 11,
+      "first_four_events": 1,
+      "last_four_events": 8
+    },
+    {
+      "town": "Enniscorthy",
+      "river": "Slaney",
+      "station_id": "0000012002",
+      "station_name": "Enniscorthy",
+      "town_latitude": 52.502307,
+      "town_longitude": -6.566852,
+      "latitude": 52.525,
+      "longitude": -6.575,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 52.525,
+      "returned_longitude": -6.574997,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 13.474563372570474,
+      "median_m3s": 10.67,
+      "p95_m3s": 29.857999999999972,
+      "p99_m3s": 52.3924,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 1,
+          "high_days": 2,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 1,
+          "high_days": 8,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 2,
+          "high_days": 4,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 2,
+          "high_days": 4,
+          "days": 182
+        }
+      ],
+      "total_events": 7,
+      "first_four_events": 2,
+      "last_four_events": 4
+    },
+    {
+      "town": "Ennis",
+      "river": "Fergus",
+      "station_id": "0000027066",
+      "station_name": "Ennis Bridge",
+      "town_latitude": 52.846674,
+      "town_longitude": -8.981789,
+      "latitude": 52.825,
+      "longitude": -9.025,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 52.825005,
+      "returned_longitude": -9.024994,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 13.065907473309629,
+      "median_m3s": 10.04,
+      "p95_m3s": 31.09199999999997,
+      "p99_m3s": 45.393600000000006,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 1,
+          "high_days": 1,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 5,
+          "high_days": 15,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 1,
+          "high_days": 1,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 3,
+          "high_days": 6,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 5,
+          "high_days": 7,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        }
+      ],
+      "total_events": 17,
+      "first_four_events": 7,
+      "last_four_events": 9
+    },
+    {
+      "town": "Athlone",
+      "river": "Shannon",
+      "station_id": "0000026027",
+      "station_name": "Athlone",
+      "town_latitude": 53.421534,
+      "town_longitude": -7.940756,
+      "latitude": 53.425,
+      "longitude": -7.975,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 53.425003,
+      "returned_longitude": -7.974991,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 76.15139337530772,
+      "median_m3s": 67.08,
+      "p95_m3s": 142.3519999999999,
+      "p99_m3s": 186.7064,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 1,
+          "high_days": 3,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 0,
+          "high_days": 0,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        }
+      ],
+      "total_events": 1,
+      "first_four_events": 1,
+      "last_four_events": 0
+    },
+    {
+      "town": "Carrick-on-Shannon",
+      "river": "Shannon",
+      "station_id": "0000026324",
+      "station_name": "Carrick-On-Shannon",
+      "town_latitude": 53.943210314852095,
+      "town_longitude": -8.095558601188694,
+      "latitude": 53.925,
+      "longitude": -8.075,
+      "selection": "Model grid-cell selector, not exact gauge coordinate. OPW location plus neighbouring-cell continuity and published flow plausibility checks; no claim of gauge calibration.",
+      "returned_latitude": 53.925003,
+      "returned_longitude": -8.074997,
+      "history_start": "2016-01-01",
+      "history_end": "2025-12-31",
+      "valid_days": 3653,
+      "missing_days": 0,
+      "mean_m3s": 27.371067615658315,
+      "median_m3s": 21.86,
+      "p95_m3s": 62.24,
+      "p99_m3s": 88.8408,
+      "winters": [
+        {
+          "winter": "2016/17",
+          "events": 0,
+          "high_days": 0,
+          "days": 182
+        },
+        {
+          "winter": "2017/18",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2018/19",
+          "events": 1,
+          "high_days": 3,
+          "days": 182
+        },
+        {
+          "winter": "2019/20",
+          "events": 2,
+          "high_days": 9,
+          "days": 183
+        },
+        {
+          "winter": "2020/21",
+          "events": 5,
+          "high_days": 11,
+          "days": 182
+        },
+        {
+          "winter": "2021/22",
+          "events": 1,
+          "high_days": 1,
+          "days": 182
+        },
+        {
+          "winter": "2022/23",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        },
+        {
+          "winter": "2023/24",
+          "events": 0,
+          "high_days": 0,
+          "days": 183
+        },
+        {
+          "winter": "2024/25",
+          "events": 1,
+          "high_days": 2,
+          "days": 182
+        }
+      ],
+      "total_events": 12,
+      "first_four_events": 4,
+      "last_four_events": 3
+    }
+  ]
+}
+
